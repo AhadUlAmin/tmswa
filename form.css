@@ -1,0 +1,360 @@
+.clr{
+		width:75% ;
+    background: #f0c14b;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none!important;
+    vertical-align: middle;
+	    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 29px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
+
+
+     font-family: Arial,sans-serif; 
+    font-size: 13px; 
+     line-height: 29px; 
+     white-space: nowrap; 
+}
+
+.clr:hover{    
+    background: #fff;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+	}
+.a-button {
+	width:75% ;
+    background: #e7e9ec;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    text-decoration: none!important;
+    vertical-align: middle;
+}
+.a-button-inner {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 29px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.6) inset;
+    border-radius: 2px;
+}
+.a-button-text {
+     background-color: transparent; 
+     border: 0; 
+     display: block; 
+     font-family: Arial,sans-serif; 
+    font-size: 13px; 
+     line-height: 29px; 
+    margin: 0; 
+     outline: 0; 
+     padding: 0 10px 0 11px; 
+     text-align: center; 
+     white-space: nowrap; 
+}
+
+
+
+.a-divider-break {
+    text-align: center;
+    position: relative;
+    top: -30px;
+    padding-top: 1px;
+    margin-bottom: -35px;
+    line-height: 0;
+}
+
+.a-divider-break h5 {
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+}
+
+.a-divider-break:after {
+    content: "";
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    z-index: 1;
+}
+
+.contact-us{width:80%;margin:0px auto;}
+.simpleform{
+	display: block;
+    border-radius: 4px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    padding: 14px 18px;
+	
+	width:100%;
+	margin:0px auto;
+}
+
+.simpleform form header {
+  margin: 0 0 20px 0; 
+}
+.simpleform form header div {
+  font-size: 90%;
+  color: #999;
+}
+.simpleform form header h2 {
+  margin: 0 0 5px 0;
+}
+.simpleform  form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+.simpleform  form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+.simpleform  form > div > label,
+.simpleform  form legend {
+    width: 20%;
+    float: left;
+    padding-right: 10px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+	margin: 8px 0px 10px 10px;
+    font-family: Open Sans;
+    font-weight: 700;
+	text-align: right;
+}
+
+
+.simpleform  form > div > div,
+.simpleform  form > div > fieldset > div {
+  width: 73%;
+  float: right;
+}
+.simpleform form > div > fieldset label {
+	font-size: 90%;
+}
+.simpleform form fieldset {
+	border: 0;
+  padding: 0;
+}
+.simpleform form select, option {
+  width: 75%;
+   height: 35px;
+    padding: 3px 7px;
+}
+
+.simpleform form select option {
+  overflow: hidden;
+  white-sapce: no-wrap;
+  text-overflow: ellipsis;
+}
+.simpleform form input[type=text],
+input[type=email],
+input[type=url],
+input[type=password]{
+      width: 75%;
+    background-color: #fff;
+    height: 25px;
+    padding: 3px 2px;
+    line-height: normal;
+
+border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset; 
+
+    color: #111;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+  
+}
+#budgetvalue, #deadlinevalue {
+    float: right;
+    margin-top: 8px;
+    font-family: mnbk;
+    font-size: .8rem;
+}
+
+.simpleform form input[type=range] {
+    margin: auto;
+    outline: none;
+    padding: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    cursor: grab;
+    transition: all .3s ease-in-out 0s;
+    -webkit-appearance: none;
+}
+
+.simpleform form textarea {
+	width: 70%;
+  background-color: #fff;
+    height: 85px;
+    padding: 5px 15px;
+    line-height: normal;
+	    border: 1px solid #a6a6a6;
+
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+
+	color: #111;
+	    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;}
+
+.simpleform form input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+textarea:focus {
+      border-color:#e77600;
+    box-shadow:0 0 3px 2px rgba(228,121,17,.5)
+  
+}
+
+.submit{
+	    display: table;
+    content: "";
+
+	width: 65%!important;
+    overflow: hidden;
+    height: 35px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+    border-radius: 2px;
+	
+	background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+	
+	}
+
+
+@media (max-width: 600px) {
+	.simpleform select, option {
+  width: 100%;
+   height: 35px;
+    padding: 3px 7px;
+}
+
+	
+	.clr {
+    width: 100%;}
+	
+	.a-button {
+    width: 100%;}
+	
+	
+	.simpleform  {
+	display: block;
+	width:95%;
+	margin:0px auto;
+}
+	
+ .simpleform  form > div {
+    margin: 0 0 15px 0; 
+  }
+  .simpleform  form > div > label,
+  .simpleform  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+ .simpleform  form > div > div,
+  .simpleform  form > div > fieldset > div {
+    width: 100%;
+    float: none;
+  }
+ .simpleform form input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  select {
+    width: 95%; 
+  }
+  
+  .simpleform form textarea {
+	width: 85%;}
+.simpleform form select, option {
+width: 94%;}
+}
+
+@media only screen and (min-width:641px) and (max-width:960px){
+	
+}
+@media only screen and (min-width:641px) and (max-width:960px){
+	
+	.simpleform{
+	display: block;
+	width:90%;
+	margin:0px auto;
+}
+	
+}
+
+@media only screen and (min-width:961px) and (max-width:1024px){
+	
+ .simpleform  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
+
+
+    input[type="range"] {
+    color: rgb(196, 196, 196);
+    }
+    .slider { /* The slider itself */
+    -webkit-appearance: none; /* Override default CSS styles */
+    width: 100%; /* Full-width */
+    height: 1px; /* Specified height */   
+    background: #000000; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    }
+    .slider:hover { /* Mouse-over effects */
+    opacity: 1; /* Fully shown on mouse-over */
+    }
+    .slider::-webkit-slider-thumb { /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+    -webkit-appearance: none; /* Override default look */
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%; 
+    background: green;
+    cursor: pointer; /* Cursor on hover */
+    }
+    .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%;
+    background: red;
+    cursor: pointer; /* Cursor on hover */
+    }

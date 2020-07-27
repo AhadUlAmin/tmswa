@@ -1,0 +1,12 @@
+#26A90F
+#304663
+#3575c0
+#c51e1e
+#09090a
+
+background-image: linear-gradient(to right top, #26a90f, #009766, #007e8b, #006287, #304663);
+background-image: linear-gradient(to bottom, #304663, #325279, #335d90, #3469a8, #3575c0);
+background-image: linear-gradient(to bottom, #3575c0, #7d60b8, #b03f97, #ca1560, #c51e1e);
+background-image: linear-gradient(to bottom, #c51e1e, #9a0441, #601947, #2b1a33, #09090a);
+background-image: linear-gradient(to bottom, #09090a, #002e47, #00596d, #008460, #26a90f);
+

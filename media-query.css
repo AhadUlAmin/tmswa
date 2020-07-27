@@ -1,0 +1,50 @@
+	.grid-container{
+		background:red;
+	}
+@media only screen and (max-width: 321px){
+		.grid-container{
+			background:blue;
+		}
+		/* smartphones, iPhone, portrait 480x320 phones */
+	}
+@media only screen and (max-width: 481px){
+	/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+		.grid-container{
+			background:black;
+		}
+		/* smartphones, iPhone, portrait 480x320 phones */
+
+	}
+@media only screen and (max-width: 641px){
+	/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+			.grid-container{
+			background:orange;
+		}
+		/* smartphones, iPhone, portrait 480x320 phones */
+
+}
+@media only screen and (max-width: 961px){
+	/* tablet, landscape iPad, lo-res laptops ands desktops */
+			.grid-container{
+			background:green;
+		}
+		/* smartphones, iPhone, portrait 480x320 phones */
+
+	}
+@media only screen and (max-width: 1025px){
+	/* big landscape tablets, laptops, and desktops */
+			.grid-container{
+			background:pink;
+		}
+		/* smartphones, iPhone, portrait 480x320 phones */
+ 
+	
+	}
+@media only screen and (max-width: 1281px){
+	/* hi-res laptops and desktops */
+			.grid-container{
+			background:yellow;
+		}
+		/* smartphones, iPhone, portrait 480x320 phones */
+
+	}
